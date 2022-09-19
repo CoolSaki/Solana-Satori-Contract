@@ -1,0 +1,12 @@
+e:\myProjects\Solana-Satori-Contract\target\debug\deps\thiserror_impl-64f83f2f8331313e.dll: C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\lib.rs C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\ast.rs C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\attr.rs C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\expand.rs C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\fmt.rs C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\generics.rs C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\prop.rs C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\valid.rs
+
+e:\myProjects\Solana-Satori-Contract\target\debug\deps\thiserror_impl-64f83f2f8331313e.d: C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\lib.rs C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\ast.rs C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\attr.rs C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\expand.rs C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\fmt.rs C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\generics.rs C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\prop.rs C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\valid.rs
+
+C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\lib.rs:
+C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\ast.rs:
+C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\attr.rs:
+C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\expand.rs:
+C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\fmt.rs:
+C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\generics.rs:
+C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\prop.rs:
+C:\Users\Saki\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.35\src\valid.rs:
