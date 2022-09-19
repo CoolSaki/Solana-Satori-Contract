@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use anchor_lang::solana_program::program::invoke;
-use anchor_spl::token;
-use anchor_spl::token::{MintTo, Token};
+use anchor_spl::token::{self, Mint};
+use anchor_spl::token::{MintTo, Burn, Token};
 use mpl_token_metadata::instruction::{create_master_edition_v3, create_metadata_accounts_v2};
 
 declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
@@ -104,6 +104,22 @@ pub mod satory_nft_contract {
 
         Ok(())
     }
+
+    pub fn burn_token(ctx: Context<BurnToken>, amount: u64) -> Result<()> {
+        
+        let cpi_accounts = Burn {
+            mint: ctx.accounts.mint.to_account_info(),
+            from: ctx.accounts.from.to_account_info(),
+            authority: ctx.accounts.authority.to_account_info(),
+        };
+        let cpi_program = ctx.accounts.token_program.to_account_info();
+        // Create the CpiContext we need for the request
+        let cpi_ctx = CpiContext::new(cpi_program, cpi_accounts);
+
+        // Execute anchor's helper function to burn tokens
+        token::burn(cpi_ctx, amount)?;
+        Ok(())
+    }
 }
 
 #[derive(Accounts)]
@@ -135,3 +151,15 @@ pub struct MintNFT<'info> {
     pub master_edition: UncheckedAccount<'info>,
 }
 
+#[derive(Accounts)]
+pub struct BurnToken<'info> {
+    /// CHECK: This is the token that we want to mint
+    #[account(mut)]
+    pub mint: Account<'info, Mint>,
+    pub token_program: Program<'info, Token>,
+    /// CHECK: This is the token account that we want to mint tokens to
+    #[account(mut)]
+    pub from: AccountInfo<'info>,
+    /// CHECK: the authority of the mint account
+    pub authority: Signer<'info>,
+}
